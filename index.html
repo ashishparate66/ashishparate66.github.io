@@ -1,12 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ashish Parate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 </head>
+
 <body>
-    <h1>i am Ashish</h1>
+    <!-- -------------------Nav bar --------------------- -->
+    <div class="nav">
+        <div id="nav-menu">
+            <nav>
+                <a class="logo" href="#">Ashish</a>
+                <ul id="sidemenu">
+                    <li><a class="nav-link home" href="#home">HOME</a></li>
+                    <li><a class="nav-link about" href="#about">ABOUT</a></li>
+                    <li><a class="nav-link skills" href="#skills">SKILLS</a></li>
+                    <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
+                    <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
+                    <li id="resume-button-1">
+                        <a class="nav-link resume" id="resume-link-1" href='Ashish_Parate_Resume.pdf'
+                            download="Ashish_Parate_Resume">RESUME</a>
+                    </li>
+                    <li><i class="bi bi-brightness-high" id="toggle"></i></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+
+    <section id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div id="one">
+                    <div class="text-1">Hi, I am <span id="user-detail-name" class="text-2">Ashish Parate</span></div>
+                    <div class="text-3"><span class="typing"></span></div>
+                    <button id="resume-button-2">
+                        <a id="resume-link-2" href='Ashish_Parate_Resume.pdf' download="Ashish_Parate_Resume">RESUME</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------- ABOUT ---------------------->
+    
+    <section title="About" id="about" class="about section">
+        <title>ABOUT</title>
+        <h1>ABOUT ME</h1>
+        <div class="about-section1">
+            <div>
+                <img class="home-img" src="./img/IMG_20220829_202414 (1).jpg" alt="">
+            </div>
+            <div>
+                <p id="user-detail-intro">
+                    Excellent problem-solving skills and ability to perform well in a team as well 
+                    as grow and develop own skills as a developer. Result-driven Engineering and
+                     Management student passionate about coding. Strong understanding of the web 
+                     development cycle and programming techniques and tools. Ability to work 
+                     independently or with a group.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------- SKILLS ---------------------->
+    <section id="skills">
+        <h1>SKILLS</h1>
+        <div class="skill">
+            <div class="skills-card">
+                <img class="skills-card-img" src="./img/java-script.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">JavaScript</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./img/html.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">HTML</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./img/css.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">CSS</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./img/logo_nodejs_icon_234952.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">Nodejs</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./img/code.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">JSON</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./img/java.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">JAVA</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./img/sql-server.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">MySQL</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./img/github.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">Github</h5>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./img/netlify-icon-507x512-sppiy9gt.png" alt="mongodb.png" />
+                <h5 class="skills-card-name">Netlify</h5>
+            </div>
+        </div>
+    </section>
+    <!-------------------- PROJECTS ---------------------->
+
+
+    <section id="projects">
+        <h1>PROJECTS</h1>
+        <div class="project">
+            <div class="project-card">
+                <img src="./img/bath and Body works.png" alt="">
+                <div>
+                    <h1 class="project-title">BATH AND BODY WORKS</h1>
+                    <p class="project-description">An E-Commerce website that sell bath Products and Easily available villages.</p>
+                    <p class="project-tech-stack">Tech Stack used : <span> HTML | CSS | JavaScript</span></p>
+                    <div class="repo-links">
+                        <div class="project-github-link">
+                            <span> <a href="https://github.com/ashishparate66/tearful-sound-5881" target="_blank"> Git Repo
+                                </a></span>
+                        </div>
+                        <div class="project-deployed-link">
+                            <span> <a href="https://extraordinary-sunshine-08e5d9.netlify.app/" target="_blank">Live Site
+                                </a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./img/Bass Pro shops.png" alt="">
+                <div>
+                    <h1 class="project-title">Bass Pro Shops</h1>
+                    <p class="project-description">An E-Commerce website that sells outdoor and camping products.</p>
+                    <p class="project-tech-stack">Tech Stack used : <span> HTML | CSS | JavaScript</span></p>
+                    <div class="repo-links">
+                        <div class="project-github-link">
+                            <span> <a href="https://github.com/ashishparate66/-violent-market-7865" target="_blank"> Git Repo
+                                </a></span>
+                        </div>
+                        <div class="project-deployed-link">
+                            <span> <a href="https://spiffy-tapioca-4b2d86.netlify.app/" target="_blank">Live Site
+                                </a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-------------------- GitHUB ---------------------->
+    <section class="github-activity-calendar">
+        <h1>GITHUB STATISTIC</h1>
+        <div class="github">
+            <div>
+                <img id="github-streak-stats"
+                src="https://github-readme-streak-stats.herokuapp.com/?user=ashishparate66&" alt="ashishparate" />
+            </div>
+            <div>
+                <img id="github-top-langs"
+                    src="https://github-readme-stats.vercel.app/api/top-langs?username=ashishparate66&show_icons=true&locale=en&layout=compact"
+                    alt="top_languages" />
+            </div>
+            <div>
+                <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=ashishparate66&show_icons=true&locale=en" alt="ashishparate" />
+            </div>
+        </div>
+    </section>
+
+    <!-------------------- CONTACTS ---------------------->
+    <section id="contact">
+        <div>
+            <h1>CONTACT</h1>
+            <p id="contact-phone">Contact Number - 8459875261</p>
+            <p id="contact-email">Email Address - ashishparate@gmail.com</p>
+            <p>Address - Nagpur, Maharashtra</p>
+            <div>
+                <h1 id="contact-github" onclick="git()"><i class="bi bi-github"></i></h1>
+                <h1 id="contact-linkedin" onclick="linkedin()"><i class="bi bi-linkedin"></i></h1>
+                <h1 onclick="email()"><i class="bi bi-envelope-fill"></i></h1>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="index.js"></script>
+<script>
+    function git(){
+         window.location.href = "https://github.com/ashishparate66";
+    }
+    function linkedin(){
+         window.location.href = "https://shorturl.at/imwHS";
+    }
+    function email(){
+         window.location.href = "mailto:ashishparate66@gmail.com";
+    }
+</script>
