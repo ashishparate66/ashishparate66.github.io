@@ -337,7 +337,7 @@ nav .fas {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20% 3%;
+    gap: 5% 3%;
     padding-bottom: 50px;
     margin-bottom: 8%;
 
