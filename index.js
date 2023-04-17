@@ -105,6 +105,6 @@ sr.reveal('#github-streak-stats', { delay: 200 })
 sr.reveal('#github-top-langs', { delay: 400 })
 sr.reveal('#github-stats-card', { delay: 600 })
 
-// sr.reveal('.calendar', { delay: 600 })
+ sr.reveal('.calendar', { delay: 600 })
 
 
