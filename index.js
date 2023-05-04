@@ -62,7 +62,7 @@ function closemenu() {
 }
 // typing text animation script
 var typed = new Typed(".typing", {
-    strings: ["A Full W Stack Developer",  "A JAVA Backend Developer"],
+    strings: ["A Full Stack Developer",  "A JAVA Backend Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
