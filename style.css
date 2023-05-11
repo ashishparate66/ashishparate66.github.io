@@ -32,19 +32,6 @@ nav {
     width: 100%;
 }
 
-/* ============= */
-/* .checkbtn {
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    right: -40px;
-    cursor: pointer;
-    position: absolute;
-    display: none;
-}
- */
-
 
 /* ============= */
 .logo {
@@ -414,8 +401,8 @@ nav .fas {
 }
 
 .project-card:hover {
-    transition: 0.5s;
-    -ms-transform: scale(1.5);
+    transition: 0.2s;
+    -ms-transform: scale(0.5); 
     -webkit-transform: scale(1.5);
     transform: scale(1.1);
 }
