@@ -1,4 +1,5 @@
-# ashishparate66.github.io
+
+# Ashish Parate Protfolio
 
 Home Section
 <img src="C:\Users\Ashish parate\OneDrive\Desktop\ashishparate66.github.io\img\homePage.png" width="900" style="max-width: 100%;">
@@ -14,4 +15,5 @@ Project Section
 
 Contact Section
 <img src="C:\Users\Ashish parate\OneDrive\Desktop\ashishparate66.github.io\img\contactPage.png" width="900" style="max-width: 100%;">
+
 
