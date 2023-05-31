@@ -21,7 +21,7 @@ toggle.addEventListener('click', function () {
         document.querySelector('#skills>h1').style.color = "white";
          document.querySelector('#skills>h1').style.transition = "1s";
         document.querySelector('#projects>h1').style.color = "white";
-        document.querySelector('#projects>h1').style.transition = "1s";
+        document.querySelector('#projects>h1').style.transition = "0s";
         document.querySelector('.github-activity-calendar h1').style.color = "white";
         document.querySelector('.github-activity-calendar h1').style.transition = "1s";
        
@@ -44,7 +44,7 @@ toggle.addEventListener('click', function () {
         document.querySelector('#skills>h1').style.color = "RGB(35, 40, 62)";
          document.querySelector('#skills>h1').style.transition = "1s";
         document.querySelector('#projects>h1').style.color = "RGB(35, 40, 62)";
-        document.querySelector('#projects>h1').style.transition = "1s";
+        document.querySelector('#projects>h1').style.transition = "0s";
         document.querySelector('.github-activity-calendar>h1').style.color = "RGB(35, 40, 62)";
         document.querySelector('.github-activity-calendar>h1').style.transition = "1s";
        
