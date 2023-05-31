@@ -288,22 +288,23 @@ nav .fas {
 
 .about-section1 {
     margin: auto;
-    margin-top: 4%;
+    margin-top: 2%;
     width: 80%;
     display: flex;
     justify-content: space-between;
 }
 
 .about-section1>div>img {
-    width: 100%;
+    width: 180%;
     border-radius: 20px;
+   
 }
 
 #user-detail-intro {
-    margin-top: 3%;
-    margin-left: 10%;
+    margin-top: 5%;
+    margin-left: 28%;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
 }
 

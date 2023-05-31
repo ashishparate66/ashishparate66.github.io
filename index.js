@@ -71,12 +71,14 @@ var typed = new Typed(".typing", {
 
 document.querySelector('#resume-link-1').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.location.assign("https://drive.google.com/file/d/1M5Z6sTSyXWco9vnwKSt5bR9ipVuK-lrU/view?usp=share_link", "_blank");
+    // window.location.assign("https://drive.google.com/file/d/1cHRUp1zZ59hIw7UuIul2T14R8IdjhDXv/view?usp=sharing", "_blank");
+    window.open('https://drive.google.com/file/d/1cHRUp1zZ59hIw7UuIul2T14R8IdjhDXv/view?usp=sharing',"_blank");
 })
 
 document.querySelector('#resume-link-2').addEventListener("click", () => {
     // console.log("OPENinig.....")
-    window.location.assign("https://drive.google.com/file/d/1M5Z6sTSyXWco9vnwKSt5bR9ipVuK-lrU/view?usp=share_link", "_blank");
+   // window.location.assign("https://drive.google.com/file/d/1cHRUp1zZ59hIw7UuIul2T14R8IdjhDXv/view?usp=sharing", "_blank");
+    window.open('https://drive.google.com/file/d/1cHRUp1zZ59hIw7UuIul2T14R8IdjhDXv/view?usp=sharingom',"_blank");
 })
 
 
